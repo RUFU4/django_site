@@ -1,0 +1,99 @@
+@import url(style.css);
+@import url(au_style-css.css);
+@import url(basket_style.css);
+
+.footer{
+    position: relative;
+    top: 1000px;
+}
+
+.content-acc{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    width: 400px;
+    height: 300px;
+    color: white;
+    font-style: lighter;
+}
+.history-order{
+    position: relative;
+    left: 570px;
+    top: -300px;
+    width: 400px;
+    height: 300px;
+}
+#name-account{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+}
+#email-account{
+    font-size: 20px;
+    color: white;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+}
+#addres-account{
+    font-size: 20px;
+    color: white;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+}
+.item-history{
+    position: relative;
+    top: 20px;
+    left: -50px;
+    width: 550px;
+    height: 160px;
+    background-color: rgba(47, 47, 47, 10%);
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#img-item-hist{
+    position: relative;
+    top: 20px;
+    left: -10px;
+    background-size: cover;
+    width: 90px;
+    height: 100px;
+}
+.name-brand_basket-hist{
+    font-size: 20px;
+    left: 130px;
+    width: 500px;
+    color: white;
+    font-style: lighter;
+    position: relative;
+    top: 10px;
+    
+}
+.name-it_basket-hist{
+    font-size: 12px;
+    left: -15px;
+    width: 500px;
+    color: #848484;
+    font-style: lighter;
+    position: relative;
+    top: 40px;
+}
+.price-items-hist{
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    left: -160px;
+    position: relative;
+    top: 65px;
+}
+.delivery-items-hist{
+    color: #848484;
+    font-size: 15px;
+    width: 500px;
+    font-style: lighter;
+    left: -248px;
+    position: relative;
+    top: 120px;
+}

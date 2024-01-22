@@ -1,0 +1,908 @@
+@charset "UTF-8";
+/*          INFORMATION
+
+col-xs  < 576px
+col-sm  > 576px 
+col-md  > 768px
+col-lg  > 992px
+col-xl  > 1200px
+col-xxl > 1400px
+
+Вертикальный отступ:
+gy-1 0.25rem
+gy-2 0.5rem
+gy-3 1rem
+gy-4 1.5rem
+gy-5 3rem
+
+*/
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  background-color: #0D0D0D;
+  font-family: "Urbanist";
+}
+
+.menu {
+  background-color: #0D0D0D;
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  left: -1px;
+  transition: all 0.2s ease;
+}
+
+.svgclass-anim:hover #svg-menu-1 {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+.svgclass-anim:hover #svg-menu-2 {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+.svgclass-anim:hover #svg-menu-3 {
+  transition-duration: 0.5s;
+  opacity: 0;
+}
+
+.svgclass-anim {
+  transition: all 0.2s ease;
+}
+
+.svgclass-anim:hover .block-menu {
+  background-color: #515551;
+  left: 0px;
+}
+
+#menu {
+  position: absolute;
+  left: 40px;
+  top: 49px;
+}
+
+button {
+  display: block;
+  visibility: hidden;
+}
+
+form.hide-submit input[type=submit] {
+  display: none;
+}
+
+.footer {
+  position: absolute;
+  top: 4800px;
+  height: 300px;
+  width: 1100px;
+}
+.footer #line-foot {
+  width: 920px;
+  position: relative;
+  left: 150px;
+  background-color: white;
+}
+
+.categories-1 {
+  position: relative;
+  top: 20px;
+  left: 110px;
+  font-size: 16px;
+  color: #686868;
+  width: 150px;
+}
+.categories-1 #main-1 {
+  font-size: 20px;
+  color: white;
+}
+
+.categories-2 {
+  position: relative;
+  top: -91px;
+  left: 290px;
+  font-size: 16px;
+  color: #686868;
+  width: 150px;
+}
+.categories-2 #main-2 {
+  font-size: 20px;
+  color: white;
+}
+
+.categories-3 {
+  position: relative;
+  top: -225px;
+  left: 500px;
+  font-size: 16px;
+  width: 200px;
+  color: #686868;
+}
+.categories-3 #main-3 {
+  font-size: 20px;
+  color: white;
+}
+
+#text-news {
+  position: relative;
+  top: -370px;
+  left: 705px;
+  font-size: 22px;
+  color: white;
+  width: 370px;
+}
+
+#button-email {
+  position: relative;
+  top: -360px;
+  left: 705px;
+  width: 365px;
+  height: 30px;
+}
+
+.custom-checkbox {
+  align-items: center;
+}
+
+.hidden-checkbox {
+  position: absolute;
+}
+
+.custom-checkbox .checkbox {
+  top: -360px;
+  left: 706px;
+  box-sizing: border-box;
+  width: 20px;
+  height: 18px;
+  border: 3px solid #FFFFFF;
+  position: relative;
+}
+
+.custom-checkbox .checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  height: auto;
+  display: none;
+}
+
+.custom-checkbox input:checked + .checkbox .checkmark {
+  display: block;
+}
+
+.block-menu {
+  position: fixed;
+  top: 0px;
+  left: -210px;
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+.block-menu #name {
+  position: relative;
+  font-size: 30px;
+  left: 0;
+  top: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#cs {
+  position: relative;
+  height: -100px;
+}
+
+#click-site-1,#click-site-6, #click-site-5, #click-site-4, #click-site-3, #click-site-2{
+  position: relative;
+  top: 60px;
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+#click-site-2 {
+  top: 80px;
+}
+
+#click-site-3 {
+  top: 100px;
+}
+
+#click-site-4 {
+  top: 120px;
+}
+
+#click-site-5 {
+  top: 140px;
+}
+
+#click-site-6 {
+  top: 160px;
+}
+
+#click-site-7 {
+  top: 180px;
+  position: relative;
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+#cs-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#cs-link:hover {
+  color: rgb(191, 191, 191);
+  text-decoration: none;
+}
+
+.additional-element {
+  position: relative;
+  top: 100px;
+  width: 100px;
+  height: 10px;
+  transition: all 0.5s ease-in-out;
+  left: 45px;
+}
+
+.button-soc {
+  position: relative;
+  top: 32%;
+}
+.button-soc #whats-app {
+  position: relative;
+  top: 80px;
+}
+.button-soc #telegram {
+  position: relative;
+  top: 100px;
+}
+.button-soc #vk {
+  position: relative;
+  top: 120px;
+}
+
+/*
+#block-menu-but1{
+    position: fixed;
+    background-color: #828282;
+    height: 20px;
+    width: 20px;
+    left: 80px;
+    top: 150px;
+    transition: all 0.5s ease-in-out;
+}
+#block-menu-but2{
+    @extend #block-menu-but1;
+    left: 80px;
+    top: 250px
+}
+#block-menu-but3{
+    @extend #block-menu-but1;
+    left: 80px;
+    top: 350px;
+}*/
+#text-accept {
+  position: relative;
+  top: -392px;
+  left: 735px;
+  font-size: 20px;
+  color: white;
+  text-decoration: underline 0.5px;
+  width: 250px;
+}
+
+#button-submit {
+  position: relative;
+  top: -340px;
+  left: 705px;
+  width: 200px;
+  height: 42px;
+  box-sizing: border-box;
+  border: 2.5px solid #FFFFFF;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px;
+}
+
+#button-submit:hover {
+  border-radius: 12px;
+  background-color: rgba(130, 130, 130, 0.1);
+}
+
+#sub-text {
+  font-size: 22px;
+  position: relative;
+  top: 2px;
+  color: white;
+  text-align: center;
+}
+
+#namesite {
+  position: relative;
+  top: -360px;
+  left: 150px;
+  width: 400px;
+}
+
+#copyright {
+  position: relative;
+  left: 150px;
+  top: -360px;
+  font-size: 16px;
+  width: 250px;
+  color: #686868;
+}
+
+#ta-url {
+  text-decoration: none;
+  color: white;
+}
+
+#ta-url:hover {
+  color: #bdbdbd;
+}
+
+#ta-li {
+  text-decoration: none;
+  color: #686868;
+}
+
+#ta-li:hover {
+  text-decoration: underline;
+}
+
+#svg-menu-1 {
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+#svg-menu-2 {
+  position: relative;
+  top: -7px;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+#svg-menu-3 {
+  position: relative;
+  top: -13px;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+#block-1 {
+  position: absolute;
+  right: 450px;
+}
+
+#block-2 {
+  position: absolute;
+  right: 1%;
+}
+
+#block-3 {
+  position: absolute;
+  width: 170px;
+  height: 185px;
+  right: 25px;
+  top: 390px;
+  background: #292929;
+}
+
+#block-4 {
+  position: absolute;
+  right: 205px;
+  top: 390px;
+  background: #292929;
+}
+
+#name {
+  font-size: 90px;
+  position: absolute;
+  top: 350px;
+  left: 350px;
+  color: white;
+}
+
+#name_under {
+  font-size: 20px;
+  position: absolute;
+  top: 455px;
+  left: 355px;
+  color: white;
+}
+
+#line {
+  position: absolute;
+  top: 455px;
+  left: 485px;
+  transition: all 0.3s ease-in-out;
+}
+
+.next:hover #line {
+  transform: translateX(10px);
+}
+
+@media (max-width: 992px) {
+  #name {
+    left: 250px;
+  }
+  #name_under {
+    left: 255px;
+  }
+}
+@media (max-width: 576px) {
+  #name {
+    color: #b12020;
+    left: 150px;
+  }
+  #name_under {
+    left: 155px;
+  }
+}
+#rect_pop-6 {
+  position: absolute;
+  width: 940px;
+  height: 349px;
+  left: 140px;
+  top: 1200px;
+  bottom: 0px;
+  background: rgba(41, 41, 41, 0.1);
+  border-radius: 20px 20px 20px 20px;
+}
+
+#nameblock_popular {
+  font-size: 50px;
+  color: white;
+  top: 1100px;
+  left: 500px;
+  position: absolute;
+  font-family: Calibri;
+}
+
+#slaid_left {
+  position: relative;
+  top: 150px;
+  left: 10px;
+  transition: all 0.2s ease-in-out;
+  width: 27px;
+  height: 44px;
+}
+
+#slaid_left:hover {
+  width: 30px;
+  height: 47px;
+}
+
+#slaid_right {
+  position: relative;
+  left: 900px;
+  top: 100px;
+  transition: all 0.2s ease-in-out;
+  width: 27px;
+  height: 44px;
+}
+
+#slaid_right:hover {
+  width: 30px;
+  height: 47px;
+}
+
+#rect-1 {
+  position: absolute;
+  width: 201.68px;
+  height: 277.08px;
+  left: 79px;
+  background-color: #121212;
+}
+#rect-1 #rect-1-img {
+  position: relative;
+  width: 201px;
+  height: 150px;
+  top: 60px;
+  left: 6px;
+  background: url("Photo/nike-popular.png");
+  background-size: cover;
+}
+
+#rect-2 {
+  position: absolute;
+  width: 201.68px;
+  height: 277.08px;
+  left: 371px;
+  background: #121212;
+}
+#rect-2 #rect-2-img {
+  position: relative;
+  width: 240px;
+  height: 130px;
+  top: 60px;
+  left: -16px;
+  background: url("Photo/gucii-popular.png");
+  background-size: cover;
+}
+
+#rect-3 {
+  position: absolute;
+  width: 201.68px;
+  height: 277.08px;
+  left: 665px;
+  background: #121212;
+}
+#rect-3 #rect-3-img {
+  position: relative;
+  width: 241px;
+  height: 250px;
+  top: -10px;
+  left: -66px;
+  background: url("Photo/lv-popular.png");
+  background-size: cover;
+}
+
+.ebi {
+  position: absolute;
+  top: 1700px;
+  width: 1000px;
+  height: auto;
+  left: 150px;
+  text-align: right;
+  margin-left: 50px;
+}
+.ebi hr {
+  background-color: white;
+  width: 390px;
+  position: relative;
+  left: 303px;
+}
+
+#name-page, #text-undernamepage {
+  position: relative;
+  font-family: Calibri;
+  top: 0px;
+  text-align: right;
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+  left: 100px;
+}
+
+#text-undernamepage {
+  top: 9px;
+  font-size: 15px;
+  color: gray;
+}
+
+.block-element {
+  position: relative;
+  left: 110px;
+  background-color: #121212;
+  width: 300px;
+  height: 300px;
+  top: -110px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#blockelement1 {
+  position: relative;
+  right: 20px;
+  top: 20px;
+}
+
+#blockelement2 {
+  position: relative;
+  right: 200px;
+  top: -70px;
+}
+
+#blockelement3 {
+  position: relative;
+  right: 200px;
+  top: 10px;
+}
+
+#blockelement4 {
+  position: relative;
+  right: 20px;
+  top: -80px;
+}
+
+#text-underblockelement-1 {
+  position: relative;
+  top: 25px;
+  right: 15px;
+  color: gray;
+}
+
+#text-underblockelement-2 {
+  position: relative;
+  top: -62px;
+  right: 200px;
+  color: gray;
+}
+
+#text-underblockelement-3 {
+  position: relative;
+  top: 15px;
+  right: 165px;
+  color: gray;
+  font-size: 14px;
+}
+
+#text-underblockelement-4 {
+  position: relative;
+  top: -72px;
+  right: 25px;
+  color: gray;
+}
+
+#lm {
+  text-decoration: none;
+}
+
+.button_learnmore {
+  box-sizing: border-box;
+  position: relative;
+  width: 250px;
+  height: 48px;
+  left: 655px;
+  top: -230px;
+  border: 1px solid #FFFFFF;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px;
+}
+
+.button_learnmore:hover {
+  border-radius: 20px;
+  background-color: rgba(130, 130, 130, 0.1);
+}
+
+#text_lmbutton {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 4px;
+}
+
+#rec_back {
+  position: relative;
+  background-color: #151515;
+  width: 870px;
+  height: 70px;
+  font-family: Calibri;
+  color: #ffffff;
+  text-align: right;
+  font-size: 40px;
+  font-weight: lighter;
+  left: 150px;
+}
+#rec_back #name-page-pop_brand {
+  top: 6px;
+  position: relative;
+  right: 20px;
+}
+
+#brand_img-1 {
+  position: relative;
+  top: 80px;
+  width: 340px;
+  height: 230px;
+  left: 100px;
+  background: url("Photo/nike_popbrand.png");
+}
+
+.pop_brand-nk {
+  position: absolute;
+  top: 2300px;
+  height: 1000px;
+}
+
+#textunder-brand_img-1 {
+  position: relative;
+  top: 110px;
+  left: 150px;
+  color: #BDBDBD;
+  font-size: 15px;
+}
+
+#button_brand {
+  position: relative;
+  top: 630px;
+  left: 150px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 350px;
+  height: 68px;
+  border: 1px solid #FFFFFF;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px;
+}
+#button_brand #text_lmbutton {
+  top: 15px;
+}
+
+#button_brand:hover {
+  border-radius: 20px;
+  background-color: rgba(130, 130, 130, 0.1);
+}
+
+#block-examplebrand-1 {
+  position: relative;
+  top: -254px;
+  left: 600px;
+  width: 200px;
+  height: 300px;
+  background-color: #252525;
+}
+
+#block-examplebrand-2 {
+  position: relative;
+  top: -584px;
+  left: 825px;
+  width: 200px;
+  height: 300px;
+  background-color: #252525;
+}
+
+#textunder_block-examplebrand-1 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: -240px;
+  left: 650px;
+  width: 200px;
+}
+
+#textunder_block-examplebrand-2 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: -570px;
+  left: 880px;
+  width: 200px;
+}
+
+.pop_brand-lv {
+  position: absolute;
+  top: 3200px;
+  height: 1000px;
+}
+.pop_brand-lv #button_brand {
+  position: relative;
+  top: 570px;
+  left: 700px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 350px;
+  height: 68px;
+  border: 1px solid #FFFFFF;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px;
+}
+.pop_brand-lv #button_brand #text_lmbutton {
+  top: 15px;
+}
+.pop_brand-lv #button_brand:hover {
+  border-radius: 20px;
+  background-color: rgba(130, 130, 130, 0.1);
+}
+.pop_brand-lv #textunder-brand_img-1 {
+  position: relative;
+  top: 110px;
+  left: 720px;
+  color: #BDBDBD;
+  font-size: 15px;
+  width: 310px;
+  text-align: right;
+}
+.pop_brand-lv #block-examplebrand-1 {
+  position: relative;
+  top: -330px;
+  left: 140px;
+  width: 200px;
+  height: 300px;
+  background-color: #252525;
+}
+.pop_brand-lv #block-examplebrand-2 {
+  position: relative;
+  top: -660px;
+  left: 370px;
+  width: 200px;
+  height: 300px;
+  background-color: #252525;
+}
+.pop_brand-lv #textunder_block-examplebrand-1 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: -320px;
+  left: 200px;
+}
+.pop_brand-lv #textunder_block-examplebrand-2 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: -650px;
+  left: 430px;
+}
+
+#brand_img-2 {
+  position: relative;
+  top: 78px;
+  width: 240px;
+  height: 250px;
+  left: 780px;
+  background: url(Photo/lv_popbrand.png);
+  background-size: cover;
+}
+
+.pop_brand-ch {
+  position: absolute;
+  top: 4200px;
+  height: 900px;
+}
+.pop_brand-ch #textunder-brand_img-3 {
+  position: relative;
+  top: -60px;
+  left: 150px;
+  color: #BDBDBD;
+  font-size: 15px;
+  width: 310px;
+}
+.pop_brand-ch #button_brand {
+  position: relative;
+  top: -10px;
+  left: 150px;
+}
+.pop_brand-ch #block-examplebrand-1 {
+  position: relative;
+  top: -574px;
+  left: 610px;
+  width: 200px;
+  height: 300px;
+  background-color: #252525;
+}
+.pop_brand-ch #block-examplebrand-2 {
+  position: relative;
+  top: -903px;
+  left: 840px;
+  width: 200px;
+  height: 300px;
+  background-color: #252525;
+}
+.pop_brand-ch #textunder_block-examplebrand-1 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: -560px;
+  left: 670px;
+  width: 100px;
+}
+.pop_brand-ch #textunder_block-examplebrand-2 {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: -890px;
+  left: 910px;
+  width: 200px;
+}
+
+#brand_img-3 {
+  position: relative;
+  top: -96px;
+  width: 310px;
+  height: 230px;
+  left: 150px;
+  background: url("Photo/channel_popbrand.png");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

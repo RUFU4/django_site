@@ -1,0 +1,52 @@
+@import url(style.css);
+@import url(au_style-css.css);
+.content-contact {
+  position: relative;
+  top: 20px;
+  left: 150px;
+}
+.content-contact #point-1 {
+  position: relative;
+  color: white;
+  font-size: 24px;
+  left: 15px;
+}
+.content-contact #point-2 {
+  position: relative;
+  color: white;
+  font-size: 24px;
+  left: 150px;
+}
+.content-contact #point-3 {
+  position: relative;
+  color: white;
+  font-size: 24px;
+  left: 250px;
+}
+.content-contact #text-point1 {
+  top: 50px;
+  left: -35px;
+  position: relative;
+  font-size: 16px;
+  color: #757575;
+}
+.content-contact #text-point2 {
+  top: 50px;
+  left: 79px;
+  position: relative;
+  font-size: 16px;
+  color: #757575;
+}
+.content-contact #text-point3 {
+  top: 50px;
+  left: 120px;
+  position: relative;
+  font-size: 16px;
+  color: #757575;
+}
+
+.footer {
+  top: 400px;
+}
+
+/*# sourceMappingURL=contact_css.css.map */

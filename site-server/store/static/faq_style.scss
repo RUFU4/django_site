@@ -1,0 +1,96 @@
+@import url(style.css);
+@import url(au_style-css.css);
+
+.footer {
+    top: 900px;
+}
+.content-faq{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    hr{
+        position: relative;
+        background-color: #7F7F7F;
+        height: 0.1px;
+        width: 900px;
+        left: -100px;
+        top: 300px;
+    }
+}
+#textfaq{
+    position: relative;
+    color: #B6B6B6;
+    left: 15px;
+    font-size: 16px;
+}
+#button-1{
+    box-sizing: border-box;
+    position: relative;
+    width: 302px;
+    height: 72px;
+    left: 15px;
+    top: 126px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    border-radius: 0px;
+    transition: all 0.2s ease-in-out;
+}
+#button-1:hover{
+    border-radius: 20px;
+    background-color: rgba(130, 130, 130, 0.1);
+}
+#text-button-1{
+    position: relative;
+    top: 15px;
+    font-size: 24px;
+    color: white;
+}
+#button-2{
+    box-sizing: border-box;
+    position: relative;
+    width: 380px;
+    height: 72px;
+    left: 100px;
+    top: 126px;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    border-radius: 0px;
+    transition: all 0.2s ease-in-out;
+}
+#button-2:hover{
+    border-radius: 20px;
+    background-color: rgba(130, 130, 130, 0.1);
+}
+#text-button-2{
+    position: relative;
+    top: 15px;
+    font-size: 24px;
+    color: white;
+}
+#downques-1{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 250px;
+    left: -668px;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+#downques-2{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 220px;
+    left: 15px;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+#downques-3{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 267px;
+    left: -416px;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}

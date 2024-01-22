@@ -1,0 +1,27 @@
+{% extends 'users/base.html' %}
+
+{% block signtitle %}
+<title>Darkside | SIGN UP </title>
+{% endblock %}
+
+{% block content%}
+<form method="post" action = "{% url 'users:register'%}">
+    {% csrf_token %}
+    <div class="col-1 col-md-12 col-lg-6">
+        <div id ="log-text">Welcome</div>
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.last_name }}
+        {{ form.first_name }}
+        {{ form.email }}
+        {{ form.shipping_adress }}
+        {{ form.postal_code }}
+        <span style = "color: red">{{ error }}</span>
+        <input type ="submit" id ="log-button-reg" value="REGISTER"></input>
+    </div>
+</form>
+{% endblock %}
+
+{% block signtext %} 
+<div id="namepage">SIGN UP</div>
+{% endblock %}

@@ -1,0 +1,204 @@
+@import url(style.css);
+@import url(au_style-css.css);
+
+.footer{
+    position: relative;
+    top: 700px;
+}
+#log-text{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 300px;
+    text-align: center;
+}
+#log-text-1{
+    position: relative;
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    left: 500px;
+    top: 250px;
+}
+#log-text-2{
+    position: relative;
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    left: 290px;
+    top: 460px;
+    text-align: center;
+}
+#at{
+    text-align: center;
+    text-decoration: none;
+}
+#log-button{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    margin-top: 30px;
+    top:230px;
+    left: 450px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+#log-button-reg{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    margin-top: 30px;
+    top:70px;
+    left: 450px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+#reg-button{
+    position: relative;
+    height: 40px;
+    top:-50px;
+    left: 630px;
+    width: 200px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+#reg-button:hover{
+    background-color: rgb(70, 70, 70);
+}
+#log-button:hover{
+    background-color: rgb(70, 70, 70);
+}
+#log-button-reg:hover{
+    background-color: rgb(70, 70, 70);
+}
+#email-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+#password-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+#email-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+#password-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#fn-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+#ln-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+#address-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#postal-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+#un-reg-ph{
+    position: relative;
+    top:70px;
+    width: 300px;
+    height: 30px;
+    left: 400px;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}

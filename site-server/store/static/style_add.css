@@ -1,0 +1,72 @@
+@import url(style.css);
+@import url(au_style-css.css);
+
+/* ============================FORM============================= */
+.form{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+
+.image-brand-ph{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.naming_brand-ph{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.category-ph{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.price-item-ph{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1.7px solid #FFFFFF;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.footer{
+    position: relative;
+    top: 600px;
+}
+.form-group{
+    position: absolute;
+    top: auto;
+    left: 13px;
+    background-color: rgb(14, 171, 77) ;
+    font-size: 20px;
+    display: flex;
+
+}
+/* ================================================================= */

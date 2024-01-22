@@ -1,0 +1,93 @@
+/*          INFORMATION
+
+col-xs  < 576px
+col-sm  > 576px 
+col-md  > 768px
+col-lg  > 992px
+col-xl  > 1200px
+col-xxl > 1400px
+
+Вертикальный отступ:
+gy-1 0.25rem
+gy-2 0.5rem
+gy-3 1rem
+gy-4 1.5rem
+gy-5 3rem
+
+*/
+@import url(style.css);
+
+::-webkit-scrollbar {
+    width: 0;
+}
+body{
+    background-color:#0D0D0D;
+    font-family:Calibri;
+}
+.footer{
+    top: 1200px;
+}
+//================================================================
+.header{
+    position: relative;
+    top: 10px;
+    left: 150px;
+    width: 800px;
+    height: auto;
+
+    hr{
+        position: relative;
+        background-color: #535353;
+        width: 340px;
+        left: -150px;
+        top: -24px;
+    }
+}
+#namepage{
+    color: #606060;
+    font-size: 60px;
+}
+.content-text{
+    position: relative;
+    top: 0px;
+    left: 135px;
+    width: 500px;
+    color: #6d6d6d;
+}
+.right-content{
+    position: relative;
+    top: -160px;
+    left: 705px;
+}
+#text-swg-1{
+    position: relative;
+    left: 100px;
+    top: -85px;
+    color: #DBDBDB;
+}
+#text-swg-2{
+    position: relative;
+    left: 100px;
+    top: -85px;
+    color: #DBDBDB;
+}
+#text-swg-3{
+    position: relative;
+    left: 100px;
+    top: -85px;
+    color: #DBDBDB;
+}
+#rect-content{
+position: relative;
+width: 282px;
+height: 594px;
+left: 150px;
+top: -430px;
+background: #292929;
+}
+#text-rr{
+    position: relative;
+    top: -650px;
+    left: 420px;
+    color: #DBDBDB;
+}

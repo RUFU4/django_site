@@ -1,0 +1,165 @@
+{% load static %}
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href= "{% static 'animate.css' %}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+     crossorigin="anonymous">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content = "width=device-width, initial-scale=1, maximum-scale=1.0">
+<link rel="stylesheet" href="{% static 'user_style.css' %}">
+<script src="{% static 'wow.min.js' %}"></script>
+<script>
+    new WOW().init();
+</script>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Urbanist:700|Hahmlet:700");
+    </style>
+    <title>Darkside | Account </title>
+</head>
+<body>
+<div class="container">
+    <section class="menu row">
+        <div class="col-1 col-md-12 col-lg-6">
+            <div id="menu">
+                <div class="block-menu">
+                    <div id="name"> DARKSIDE</div>
+                </div>
+                     <div class="svgclass-anim">
+                        <div class="block-menu">
+                            <div id="name"><a href="{% url 'index' %}"id="cs-link">DARKSIDE</a></div>
+                            <div id="cs">
+                            <div id = "click-site-1"><a href="{% url 'aboutus' %}" id="cs-link">About Us</a></div>
+                            <div id = "click-site-2"><a href="{% url 'contact' %}" id="cs-link">Contacts</a></div>
+                            <div id = "click-site-3"><a href="{% url 'faq' %}" id="cs-link">FAQ</a></div>
+                            <div id = "click-site-4"><a href="{% url 'catalog' %}" id="cs-link">Catalog</a></div>
+                            <div id = "click-site-5"><a href="{% url 'basket' %}" id="cs-link">Basket</a></div>
+                            <div id = "click-site-6"><a href="{% url 'users:login' %}" id="cs-link">Login/Registration</a></div>
+                            <div id = "click-site-7"><a href="{% url 'users:profile' %}" id="cs-link">Account</a></div>
+                            </div>
+                            <div class="button-soc">
+                                <div id="whats-app">
+                                    <svg width="60" height="70" viewBox="0 0 65 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32.5 0C50.4498 0 65 13.431 65 30C65 46.569 
+                                        50.4498 60 32.5 60C26.7566 60.0085 21.1142 58.6055 16.1525 
+                                        55.935L0.0130457 60L4.40704 45.096C1.5116 40.5146 -0.00954972
+                                         35.304 4.51108e-05 30C4.51108e-05 13.431 14.5503 0 32.5 0ZM21.424 
+                                         15.9L20.774 15.924C20.3532 15.9476 19.942 16.0497 19.565 16.224C19.2125 
+                                         16.4083 18.8906 16.6387 18.6095 16.908C18.2195 17.247 17.9985 17.541 17.7613 
+                                         17.826C16.5592 19.2687 15.9119 21.0399 15.9218 22.86C15.9283 24.33 16.3443 25.761 
+                                         16.9943 27.099C18.3235 29.805 20.5108 32.67 23.3968 35.325C24.0923 35.964 24.7748 
+                                         36.606 25.5093 37.203C29.0953 40.1174 33.3686 42.2191 37.9893 43.341L39.8353 
+                                         43.602C40.4365 43.632 41.0378 43.59 41.6423 43.563C42.5888 43.5179 43.513 43.2813 
+                                         44.3495 42.87C44.7751 42.6676 45.1905 42.4474 45.5943 42.21C45.5943 42.21 45.734 
+                                         42.126 46.0005 41.94C46.4393 41.64 46.709 41.427 47.073 41.076C47.3428 40.818 47.5768 
+                                         40.515 47.7555 40.17C48.009 39.681 48.2625 38.748 48.3665 37.971C48.4445 37.377 48.4218
+                                          37.053 48.412 36.852C48.399 36.531 48.1098 36.198 47.7945 36.057L45.903 35.274C45.903 
+                                          35.274 43.0755 34.137 41.3465 33.411C41.1656 33.3381 40.9717 33.2964 40.7745 33.288C40.5522
+                                           33.2669 40.3275 33.29 40.1156 33.3557C39.9037 33.4214 39.7095 33.5282 39.546 33.669C39.5298 
+                                           33.663 39.312 33.834 36.9623 36.462C36.8274 36.6293 36.6416 36.7557 36.4286 36.8251C36.2156 
+                                           36.8946 35.985 36.9039 35.7663 36.852C35.5546 36.7996 35.3471 36.7334 35.1455 36.654C34.7425
+                                            36.498 34.6028 36.438 34.3265 36.33C32.4612 35.5786 30.7343 34.5634 29.2078 33.321C28.7983 
+                                            32.991 28.418 32.631 28.028 32.283C26.7494 31.1527 25.6351 29.874 24.713 28.479L24.5213 
+                                            28.194C24.3836 28.0025 24.2722 27.7959 24.1898 27.579C24.0663 27.138 24.388 26.784 24.388 
+                                            26.784C24.388 26.784 25.1778 25.986 25.545 25.554C25.9025 25.134 26.2048 24.726 26.3998 
+                                            24.435C26.7833 23.865 26.9035 23.28 26.702 22.827C25.792 20.775 24.8495 18.732 23.881
+                                             16.704C23.6893 16.302 23.1205 16.014 22.6038 15.957C22.4283 15.939 22.2528 15.921 
+                                             22.0773 15.909C21.6408 15.889 21.2035 15.893 20.7675 15.921L21.4208 15.897L21.424 
+                                             15.9Z" fill="white" fill-opacity="0.7"/>
+                                        </svg> 
+                                </div>
+                                <div id="telegram">
+                                    <svg width="60" height="70" viewBox="0 0 65 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32.5 0C14.56 0 0 13.44 0 30C0 46.56 14.56 
+                                        60 32.5 60C50.44 60 65 46.56 65 30C65 13.44 50.44 0 32.5 0ZM47.58 20.4C47.0925
+                                         25.14 44.98 36.66 43.9075 41.97C43.4525 44.22 42.5425 44.97 41.6975 45.06C39.8125 
+                                         45.21 38.3825 43.92 36.5625 42.81C33.7025 41.07 32.0775 39.99 29.315 38.31C26.0975 36.36 
+                                         28.1775 35.28 30.03 33.54C30.5175 33.09 38.8375 26.1 39 25.47C39.0226 25.3746 39.0196 
+                                         25.2755 38.9913 25.1814C38.9629 25.0873 38.9102 25.001 38.8375 24.93C38.6425 24.78 38.3825
+                                          24.84 38.155 24.87C37.8625 24.93 33.3125 27.72 24.44 33.24C23.14 34.05 21.97 34.47 20.93
+                                           34.44C19.76 34.41 17.55 33.84 15.8925 33.33C13.845 32.73 12.2525 32.4 12.3825 31.35C12.4475 
+                                           30.81 13.26 30.27 14.7875 29.7C24.2775 25.89 30.5825 23.37 33.735 22.17C42.77 18.69 44.6225 
+                                           18.09 45.8575 18.09C46.1175 18.09 46.735 18.15 47.125 18.45C47.45 18.69 47.5475 19.02 47.58 
+                                           19.26C47.5475 19.44 47.6125 19.98 47.58 20.4Z" fill="white" fill-opacity="0.7"/>
+                                        </svg>
+                                </div>
+                                <div id="vk">
+                                    <svg width="60" height="70" viewBox="0 0 65 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M42.4872 0H22.5453C4.33225 0 0 3.999 0 20.781V39.189C0 55.998 4.29975 
+                                        60 22.5128 60H42.4547C60.6645 60 65 56.031 65 39.219V20.811C65 3.999 60.7003 
+                                        0 42.4872 0ZM52.4745 42.81H47.7328C45.9388 42.81 45.3993 41.469 42.1818 38.499C39.3738 
+                                        36 38.1875 35.688 37.4758 35.688C36.4943 35.688 36.2245 35.937 36.2245 37.188V41.124C36.2245 
+                                        42.189 35.8508 42.813 32.838 42.813C29.9141 42.6316 27.0788 41.8116 24.5654 40.4206C22.0521 
+                                        39.0295 19.9328 37.1072 18.382 34.812C14.7003 30.582 12.1386 25.6174 10.9005 20.313C10.9005 
+                                        19.656 11.1703 19.062 12.5255 19.062H17.264C18.4827 19.062 18.9215 19.563 19.3992 20.718C21.7002 
+                                        26.97 25.6262 32.406 27.2188 32.406C27.8297 32.406 28.0963 32.157 28.0963 30.75V24.312C27.8948 
+                                        21.375 26.2047 21.126 26.2047 20.064C26.2265 19.7839 26.3655 19.5226 26.5924 19.3355C26.8194 
+                                        19.1485 27.1163 19.0504 27.4203 19.062H34.8693C35.8865 19.062 36.2245 19.53 36.2245 
+                                        20.655V29.343C36.2245 30.282 36.6633 30.594 36.9688 30.594C37.5797 30.594 38.051 30.282 39.169 
+                                        29.25C41.5703 26.5468 43.5322 23.5352 44.993 20.31C45.1423 19.9226 45.4248 19.5909 45.7975 
+                                        19.3656C46.1701 19.1402 46.6123 19.0336 47.0568 19.062H51.7985C53.2187 19.062 53.521 19.719
+                                         53.2188 20.655C51.4946 24.2203 49.3612 27.6046 46.8552 30.75C46.345 31.47 46.1402 31.845 
+                                         46.8552 32.688C47.3265 33.345 48.9872 34.626 50.1052 35.844C51.7299 37.3399 53.0791 39.0707
+                                          54.0995 40.968C54.5057 42.186 53.8265 42.81 52.4745 42.81Z" fill="white" fill-opacity="0.7"/>
+                                        </svg>
+                                </div>
+                            </div>
+                        </div>
+                   <div id="svg-menu-1"><svg width="56" height="12" viewBox="0 0 16 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M0 0H16V1H0V0Z" fill="white"/>
+                </svg></div>
+                <div id="svg-menu-2"><svg width="44" height="12" viewBox="0 0 16 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H16V1H0V0Z" fill="white"/>
+                </svg></div>                
+                <div id="svg-menu-3"><svg width="56" height="12" viewBox="0 0 16 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0H16V1H0V0Z" fill="white"/>
+                </svg>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="header row">
+        <div class="col-12 col-md-10 col-lg-10">
+          <div id="namepage">ACCOUNT</div>
+        <hr>
+      </div>
+    </div>
+    <section class="content-acc">
+        <form method="post" action="{% url 'users:profile' %}">
+            <div class="col-12 col-md-10 col-lg-10">
+                {{ form.username }}
+                {{ form.email }}
+                {{ form.shipping_address }}
+            </div>
+        </form>
+    </section>
+    <section class="history-order">
+        <div class="col-12 col-md-10 col-lg-10">
+            <div class="item-history">
+                <div id="img-item-hist"></div>
+                 <div class="name-brand_basket-hist">NIKE AIR FORCE</div>
+                  <div class="name-it_basket-hist">SWKYNET SHLYAPY</div>
+                 <div class="price-items-hist">120 000 p.</div>
+                <div class="delivery-items-hist">the nearlest 28.02.2</div>
+              </div>
+              <div class="item-history">
+                <div id="img-item-hist"></div>
+                 <div class="name-brand_basket-hist">NIKE AIR FORCE</div>
+                  <div class="name-it_basket-hist">SWKYNET SHLYAPY</div>
+                 <div class="price-items-hist">120 000 p.</div>
+                <div class="delivery-items-hist">the nearlest 28.02.2</div>
+              </div>
+
+              </div>
+        </div>
+    </section>
+    
+   </div>
+   <script type="text/javascript" src="{% static 'anim-menu.js'%}"></script>
+  </body>
+</html>
